@@ -1,0 +1,149 @@
+
+body {
+    font-family: 'NanumBarunGothic';
+    margin: 0;
+    min-width: 100%;
+}
+
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+a {  
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: black;
+}
+#logomain {
+    position: relative;
+    padding-left: 50px;
+    width: calc(4em + 1.8vw);
+    cursor: pointer;
+    -ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;
+}
+img{
+    padding-right: 20px;
+}
+.nav-container {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 5.6rem;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    border-bottom: 1px solid #ededed;
+    z-index: 0;
+    font-size: 15px;
+}
+
+.nav-item {
+    padding: 15px;
+    cursor: pointer;
+}
+.nav-item2 {
+    padding: 15px;
+    cursor: pointer;
+}
+.nav-item2 a {
+    text-align: center;
+    text-decoration: none;
+    padding-left: 5px;
+    color: white;
+}
+
+.nav-item a {
+    text-align: center;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.slick-arrow {
+    position: absolute;
+    z-index: 100;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    top: 0;
+}
+
+.slick-prev {
+    opacity: 0;
+}
+
+.slick-next {
+    right: 0;
+    opacity: 0;
+}
+ul {
+    padding: 0;
+}
+
+.big_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/static/images/gasdgg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+    background-color: #3b3b3b;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 400px 400px 400px;
+	grid-template-rows: 450px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    grid-column-gap: 60px ;
+}
+
+.boxs {
+    width: 100%;white-space: nowrap;
+    display: flex;align-items: center;
+    justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.boxs .box {
+    width:100%;
+    height:0;
+    padding-top:61.8%;
+} /* 1:1.618 */
+
+.item:hover {
+    transform: scale(1.3);
+    color: black;
+}
+
+.item {
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.item {
+    transition: all 0.3s linear;
+}
+
+footer {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	padding: 15px 0;
+	color: white;
+    height: 350px;
+}
+footer:visited{
+    text-decoration: none;
+}
+
+html {
+    position: relative;
+}
