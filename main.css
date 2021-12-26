@@ -1,0 +1,77 @@
+body {
+    overflow: hidden;
+    min-width: 450px; 
+}
+
+#logo{
+    position: relative;
+    width: calc(4em + 5vw);
+    min-width: 30px;
+    -ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;
+    cursor: pointer;
+    margin-right: 5.5vw;
+}
+
+.logobox{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3vw;
+    margin-left: 4vw;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    z-index: 1000;
+}
+
+.logoboxsub{
+    margin-left: 2rem;
+    
+}
+
+.bt {
+    margin-right: 5.5vw;
+    text-decoration-line: none;
+}
+
+.fontsub{
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: bolder;
+    font-style: normal;
+    font-size: calc(0.5em + 0.85vw);
+    z-index: 100;
+}
+
+.fontmain{
+    position: relative;
+    color: rgb(23, 143, 255);
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: -0.1rem;
+    letter-spacing: -0.03em;
+    margin-left: 11vw;
+    margin-top: calc(5em + 1.5vw);
+    font-size: calc(2em + 1.5vw);
+    -ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;
+}
+
+#videobcg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    object-fit: cover;
+    filter: blur(10px);
+    -webkit-filter: blur(5px);
+    transform: scale(1.1);
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+html{
+    font-size: 50%;
+    min-width: 945px;
+}
